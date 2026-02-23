@@ -1,0 +1,258 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #FEFAE0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    margin:0;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: bolder;
+    line-height: 2.5rem; 
+    margin-bottom: 1rem;
+    color:#FEFAE0;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-bottom: .75rem;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5rem;
+    margin-top: .5rem;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5rem;
+}
+
+a:hover {
+    color:#1C1307;
+}
+
+button {
+    font: inherit;
+    padding: .5rem;
+    background-color:#DDA15E;
+    color:#1C1307;
+    border-radius: 10px;
+    border: 2px solid #BC6C25;
+}
+
+button:hover {
+    background-color:#BC6C25;
+    color:#1C1307;
+}
+
+button a {
+    color: #1C1307;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #DDA15E;
+    color:#1C1307;
+    margin-top:1rem;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+
+#page-header {
+    background-color: #BC6C25;
+    padding: 0rem 3rem;
+    margin: 0;
+    position: sticky;
+    display:flex;
+    justify-content:space-between;
+    font-size: 24px;
+    flex-wrap:wrap;
+    align-items: flex-end;
+    top:0px;
+    z-index: 100;
+    height:200px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    color: #1C1307;
+    justify-content: center;
+    padding: 0rem 1rem;
+    flex-wrap:wrap;
+}
+
+#main-nav a{
+    color: #1C1307;
+    text-decoration: none;
+}
+
+#main-nav a:hover {
+    color:#FEFAE0;
+}
+
+#main-nav ul{
+    gap: 6rem;
+}
+
+#search-bar {
+    display:flex;
+    padding: 1rem 1rem;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: nowrap
+}
+
+#category-nav {
+    background-color:#a1b076;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    padding:1rem;
+
+}
+
+
+#category-nav li {
+    border: 2px solid #BC6C25;
+    padding: .5rem .5rem;
+    border-radius: 4px;
+    margin:0;
+}
+
+.hero-image {
+    background-image: url(/images/image2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#1C1307;
+    height: 25vh;
+    width: 100%;
+    aspect-ratio: 16/4;
+    padding: 10rem 2rem;
+    text-align: center;
+}
+
+#display-text{
+    width: 100%;
+    margin-bottom: 2rem;
+    line-height:2.5rem;
+    font-size: 40px;
+}
+
+#featured-products-section {
+    border: 2px solid #606C38;
+    margin:3rem;
+    list-style-type: none;
+    text-align: center;
+    padding:10px;
+    border-radius: 10px;
+
+}
+
+#products-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.product {
+   background-color: #606C38 ;
+   text-align:center;
+   width:20%;
+   height:100%;
+   padding: 1.5rem;
+   margin-bottom: 1.5rem;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px #1C1307;
+   list-style-type: none;
+}
+
+.card-img {
+    border-radius: 10px;
+    width:100%;
+    height:auto;
+}
+
+.card-button {
+    background-color:#DDA15E;
+    color:#1C1307;
+    padding: 1rem;
+    border-radius:10px;
+    box-shadow: 0 4px 6px #1C1307;
+}
+
+#testimonials {
+    border: 2px solid #DDA15E;
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+    margin:3rem;
+    border-radius: 10px;
+}
+
+#cards-list {
+    padding:3rem;
+    flex-direction:column;
+}
+
+.card {
+   background-color:#DDA15E ;
+   text-align:center;
+   padding: 1.5rem;
+   margin-bottom: 1.5rem;
+   border-radius: 10px;
+   list-style-type: none;
+}
+
+#team-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.team-member {
+   background-color:#a1b076 ;
+   text-align:center;
+   width:20%;
+   height:100%;
+   padding: 1.5rem;
+   margin-bottom: 1.5rem;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px #1C1307;
+   list-style-type: none;
+}
+
+#team-section {
+    border: 2px solid #a1b076;
+    margin:3rem;
+    list-style-type: none;
+    text-align: center;
+    padding:10px;
+    border-radius: 10px;
+}
