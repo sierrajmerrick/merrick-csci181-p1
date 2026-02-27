@@ -138,7 +138,7 @@ nav ul {
     margin:0;
 }
 
-.hero-image {
+#hero-image {
     background-image: url(/images/image2.jpg);
     background-size: cover;
     background-position: center;
